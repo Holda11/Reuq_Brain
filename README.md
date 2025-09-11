@@ -30,6 +30,7 @@ npm run dev
 ## Hierarchie:
 ```
 Reuq_Brain/
+├──api/ (Backend => předběžně vytvořeno)
 ├── website/ (Frontend)
 │   ├── public/
 │   ├── src/
