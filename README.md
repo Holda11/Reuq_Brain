@@ -40,6 +40,8 @@ Reuq_Brain/
 │   │   ├── ui-components/ (Složka pro tvorbu komponentů)
 │   │   ├── store/ (Složka pro setup Reduxu)
 │   │   ├── styles/ (Složka pro ukládání Scss)
+│   │   |   ├── Mixins /
+│   │   |   ├── Variables / 
 │   │   └── App.jsx
 │   ├── index.html
 │   └── vite.config.js
