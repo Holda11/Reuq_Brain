@@ -38,6 +38,41 @@ const Layout = () => {
 
   return (
     <header className="layout-header">
+
+<div className="menu__brand">
+        <span className="menu__logo" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 48 48" role="img" aria-label="IoT Monitor">
+            <rect width="48" height="48" rx="12" fill="url(#menu-logo-gradient)" />
+            <path
+              d="M14 30h3.5l4-12 5 20 4-12h3.5"
+              stroke="#fff"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+            />
+            <defs>
+              <linearGradient
+                id="menu-logo-gradient"
+                x1="4"
+                y1="4"
+                x2="44"
+                y2="44"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0" stopColor="#4ff3e4" />
+                <stop offset="1" stopColor="#07a7c2" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <div className="menu__brand-text">
+          <span className="menu__brand-name">IoT Monitor</span>
+          <span className="menu__brand-subtitle">Monitoring senzorů</span>
+        </div>
+      </div>
+
+
       <div className="layout-header__titles">
         <h1 className="layout-header__title">Dashboard</h1>
         <p className="layout-header__subtitle">

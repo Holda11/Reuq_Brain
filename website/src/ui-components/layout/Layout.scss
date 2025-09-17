@@ -81,8 +81,8 @@
 
 .layout-header__badge {
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 0px;
+    right: -6px;
   min-width: 18px;
   height: 18px;
   padding: 0 5px;
@@ -98,4 +98,36 @@
 .layout-header__icon {
   display: block;
   color: inherit;
+}
+
+
+
+
+.menu__brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--menu-divider, rgba(255, 255, 255, 0.05));
+}
+
+.menu__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu__brand-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.menu__brand-subtitle {
+  font-size: 0.9rem;
+  color: var(--menu-subtext, #c8c8c8);
 }
