@@ -10,6 +10,8 @@
   --layout-button-active: rgba(255, 255, 255, 0.12);
   --layout-badge-bg: #c0242d;
   --layout-badge-text: #ffffff;
+  background-color: #050505;
+  color: #ffff;
 }
 
 :root[data-theme='light'] {
@@ -22,6 +24,8 @@
   --layout-icon-color: #1f1f1f;
   --layout-button-hover: rgba(0, 0, 0, 0.06);
   --layout-button-active: rgba(0, 0, 0, 0.1);
+  background-color: #ffff;
+  color: #121212 ;
 }
 body {
     margin: 0;
